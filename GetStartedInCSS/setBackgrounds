@@ -1,1 +1,27 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      p.repeat { width: 384px; height: 128px;
+      background:LightBlue url(crab.png);}
+      
+      p.repeat-y { width: 384px; height: 128px; background:
+      DeepSkyBlue url( crab.png ) repeat-y top right;}
+      
+      body { background: url( crab.png )
+      no-repeat bottom right fixed; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+  
+    <p class="repeat"></p>
+    <p class="repeat-y"></p>
+    
+  </body>
+</html>
