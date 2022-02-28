@@ -1,1 +1,25 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      div > p{ color:White;Background:Blue; }
+      h3 ~ div { background: Yellow; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <h2 style="color:White;background:Green;">Sub-heading</h2>
+    <h3>Heading</h3>
+    <div>Content</div><div>More content</div>
+    <div><p>Para1</p> <p>Para 2</p>
+    <aside><p>Para 3</p></aside>
+    </div>
+    <p>Paragraph</p>
+  </body>
+</html>
