@@ -1,1 +1,24 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      #span1{ color:White; background:Red; }
+      #span2{ color:White; background: Lime; }
+      p#para1 { background:Yellow; width:70%; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <h2 style="color:White;background:Green;">Sub-heading</h2>
+    <p id="para1">You may only be someone
+    <span id="span1">in the world</span><br>
+    but to someone else you may
+    <spna id="span">be the world</span></p>
+  </body>
+</html>
