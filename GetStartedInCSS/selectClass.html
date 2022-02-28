@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      .frame { border: 2px solid Red; 
+        p.frame { border:2px solid Blue;width:50%; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <h2 style="color:White;background:Green;">Sub-heading</h2>
+    <p class="frame">You can fool all the people
+      <span class="frame">some</span> of the time, and
+      <span class="frame"> some</span> of the people all of the time, but you cannot fool all the people all the time.</p>
+  </body>
+</html>
