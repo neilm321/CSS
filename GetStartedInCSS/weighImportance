@@ -1,1 +1,33 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      h2 { color : Yellow; }
+      
+      h2 { background: Red; }
+      body h2 { background: Blue; }
+      
+      #header { background: Green; }
+      h2#header { background: Red; }
+      
+      h2.head { background: Red; }
+      body h2.head { background:Green; }
+      
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+   
+    <h2 style="coplor:White;">Element Style></h2>
+    
+    <h2 id="header">Identity Style</h2>
+    
+    <h2 class="head">Class Style</h2>
+    
+  </body>
+</html>
