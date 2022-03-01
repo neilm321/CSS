@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      
+     div.container { margin : auto; border : 0.3em dashed Tomato; }
+     div.zero { margin : 0; width : 10em; background : LightSalmon; }
+     div.center { margin : auto; border : 0.3em dashed Tomato; width : 10em; background : MistyRose; }
+     div.offset { margin : 20px 0 0 20px; background : LightSalmon; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">Centered Block
+    <div class="zero">Default Position</div>
+    <div class="center">Centred Block</div>
+    <div class="offset">Offset Block</div>
+    </div>
+  </body>
+</html>
