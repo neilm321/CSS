@@ -1,1 +1,28 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      ul { border : 2px solid Tomato; }
+      ul > li { background : MistyRose; margin : 10px;
+      padding : 5px; width : 100px; height : 20px; }
+      
+      ul.block > li { display : block; }
+      ul.inline > li { display : inline; }
+      ul.inline-block > li { display : inline block; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <ul class="block">
+    ` <li>Block</li><li>Block</li><li>Block</li></ul>
+    <ul class="inline">
+      <li>Inline</li><li>Inline</li><li>Inline</li></ul>
+      <ul class="inline-block">
+      <li>Inline Block</li><li>Inline Block</li><li>Inline Block</li></ul>
+  </body>
+</html>
