@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      div.container { position : absolute; top : 0px; left : 0px; z-index : 0; }
+      div.top-label { position : absolute; color : Red; top : 10px; right : 20px; z-index : 1; }
+      div.btm-label { position : absolute; color : Red; bottom : 10px; left : 220px; z-index : 2; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="scene.png" alt="Street Scene">
+      <div class="btm-label">Street Scene</div>
+      <div class="top=label">Paris, 1966</div>
+    </div>
+  </body>
+</html>
