@@ -1,1 +1,30 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      h2 { counter-increment : num1; }
+      h3 { counter-increment : sub1; text-indent : 10%; }
+      h2::before { content : counter(num) " "; background : Green; color : White; }
+      h3::before { content : counter(num) "." counter(sub) " "; background : LawnGreen; }
+      h3.restart { counter-reset : sub 0; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <h2>Topic</h2>
+      <h3>Section</h3>
+      <h3>Section</h3>
+      <h3>Section</h3>
+    
+    <h2>Topic</h2>
+    <h3 class="restart">Section</h3>
+    <h3>Section</h3>
+    <h3>Section</h3>
+    
+  </body>
+</html>
