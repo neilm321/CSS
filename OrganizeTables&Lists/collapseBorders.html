@@ -1,1 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      
+      table { width : 500px; height : 60px; margin : 20px; }
+      table { border : 2px solid DeepPink; }
+      td.twin { border : 5px double DeepPink; }
+      td.dots { border : 5px dotted DeepPink; }
+      td.full { border : 5px soplid DeepPink; }
+      table.fold { border-collapse : collapse; }
+      
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <table><tr>
+      <td class="twin">1</td>
+      <td class="dots">2</td>
+      <td class="full">3</td></tr></table>
+    
+    <table class="fold"><tr>
+      <td class="twin">1</td>
+      <td class="dots">2</td>
+      <td class="full">3</td></tr></table>
 
+  </body>
+</html>
