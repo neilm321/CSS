@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      
+      ul { list-style-type : none; margin : 0; padding : 0; background : Pink; overflow : hidden; }
+      
+      li a { display : block; text-align : center; text-decoration : none; color : Black; padding : 10px; float : left; }
+      
+      li a.current { background : HotPink; }
+      li a:hover { background : DeepPink; color : White; }
+      
+      
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <ul>
+      <li><a href="#home" class="current">Home</a></li>
+      <li><a href="#info">Information</a></li>
+      <li><a href="#extra">Extra</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    
+  </body>
+</html>
