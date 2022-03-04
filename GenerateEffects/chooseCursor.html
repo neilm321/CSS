@@ -1,1 +1,20 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      p { borser : 2px solid DarkOrange; height : 60px; background : Bisque; }
+      p.help-cursor { cursor : help; }
+      p.target-cursor { cursor : url(target.cur), default; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <p class="help-cursor">Browser defined help cursor</p>
+    <p class="target-cursor">Custom cursor (or browser default)</p>
+  </body>
+</html>
