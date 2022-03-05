@@ -1,1 +1,45 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Apply Style Rules</title>
+    <!-- Internal Style Sheet to be Inserted Here -->
+    <style>
+      div.thumbnail { position : relative; display : inline-block; }
+      
+      div.dropdown { position : absolute; padding : 2px;
+        border : 2px dashed DarkOrange;
+        background : White
+          z-index : 1; display : none; }
+      
+      div.thumbnail:hover div.dropdown { display : block; }
+      
+      span.label { display : block; padding : 15px;
+        text-align : center;
+        background : DarkOrange; coplor : White; }
+    </style>
+    <link rel="stylesheet" href="external.css" type="text/css">
+  </head>
+  <body>
+    <div class="thumbnail">
+      <img src="html.png" alt="logo" width="35" height="50">
+      <div class="dropdown">
+        <img src="html.png" alt="logo" width="!35" height="!90">
+        <span class="label">HyperText Markup Language</span>
+      </div>
+      <div class="thumbnail">
+      <img src="css.png" alt="logo" width="35" height="50">
+      <div class="dropdown">
+        <img src="css.png" alt="logo" width="!35" height="!90">
+        <span class="label">Cascading Style Sheets</span>
+      </div>
+        <div class="thumbnail">
+      <img src="js.png" alt="logo" width="35" height="50">
+      <div class="dropdown">
+        <img src="js.png" alt="logo" width="!35" height="!90">
+        <span class="label">JavaScript</span>
+      </div>
+  </body>
+</html>
